@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*  
+HTML ID = # CSS LOCALIZAR O ID - so pode um elemento (na mesma pagina)
+HTML CLASS = . CSS LOCALIZAR O ID - pode ter varios
+*/
+
+body {
+    background-color: rgba(205, 255, 203, 0.548);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(49, 83, 47);
+}
+
+h1#principal {
+    text-align: center;
+    color: white;
+
+    background-color: rgb(4, 109, 0);
+    border-radius: 20px;
+}
+
+h2 {
+    color: rgb(73, 139, 70);
+}
+
+p {
+    text-align: justify;
+}
+.basico {
+    color: rgb(4, 56, 4);
+}
+
+.intermediario {
+    color: rgb(182, 182, 11);
+}
+
+.avancado {
+    color: rgb(163, 8, 8);
+}
+
+.destaque {
+    background-color: #c5c56070;
+}

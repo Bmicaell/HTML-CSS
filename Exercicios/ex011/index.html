@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos deiferentes ou simplesente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <picture>
+        <source media="(max-width: 1450px)" srcset="imagens/images2/foto-p.png" type="image/png">
+        <source media="(max-width: 2050px)" srcset="imagens/images2/foto-m.png" type="image/png">
+        <img src="imagens/images2/foto-g.png" alt="Imagem perfil flexível">
+    </picture>
+  
+    <h1>Reproduzindo Àudio</h1>
+    <!-- <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Silent-night.mp3" controls autoplay></audio> 
+     fomratos: WAVE OGG MP3 -->
+
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/Silent-night.mp3" type="audio/mpeg">
+        <source src="midia/Silent-night.ogg" type="audio/ogg">
+        <source src="midia/Silent-night.wav" type="audio/wav"> <!--nao recomendado pelo tamanho do arquivo-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Silent-night.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

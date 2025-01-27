@@ -1,0 +1,36 @@
+TIPOS DE CAIXA
+
+BOX LEVEL
+
+DISPLAY: BLOCK
+quebra a linha e ocupa a pagina com largura
+
+<div>
+<h1>-<h6>
+<p></p>
+<main></main>
+<header></header>
+<nav></nav>
+<article></article>
+<aside></aside>
+<footer></footer>
+<form></form>
+<video></video>
+
+INLINE-LEVEL 
+nao quebra a linha e nao ocupa o espaço inteiro
+<span></span>
+<a></a>
+<code></code>
+<small></small>
+<strong></strong>
+<em></em>
+<sup></sup>
+<sub></sub>
+<label></label>
+<button></button>
+<input>
+<select></select>
+
+
+MARGIN: AUTO - CENTRALIZA CAIXA 
