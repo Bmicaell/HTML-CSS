@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
 
@@ -15,15 +15,28 @@
             background-repeat: no-repeat;
 
             background-size: cover;
-
+            */
             /* BACKGROUND-SIZE:
             CONTAIN: MOSTRA IMAGEM TODA 
             COVER: COBRIR A TELA TODA MESMO QUE CORTE A IMAGEM  */
 
+            
+            /* background-attachment:
+            background-attachment: fixed;
+            scroll: background acompanha a rolagem do site
+            fixed: background fica fixo nao acompanha rolagem     */
+
+            /* SHORTHAND - BACKGROUND
+            COLOR > IMAGE > POSITION > REPEAT > [SIZE] > ATTACHMENT   */
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+
+            background-size: cover;
+            /* Nao funciona o background-size com shorthand   */
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
 
             padding: 10px;
 
@@ -37,6 +50,14 @@
 <body>
     <main>
         <h1>teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia vitae laborum voluptatem recusandae ipsum similique voluptate nulla autem sapiente nisi rem at cumque, dicta quas id hic. Perspiciatis, numquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit commodi atque et enim molestias nobis exercitationem autem minus aliquid voluptatum aliquam quaerat asperiores! Repudiandae minima ipsum cupiditate culpa corporis!Lorem</p>
     </main>
 </body>
