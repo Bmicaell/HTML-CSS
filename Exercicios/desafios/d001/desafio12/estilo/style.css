@@ -61,7 +61,7 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
+    
 
     line-height: 2em;
 
@@ -87,7 +87,7 @@ section.imagem {
     
     box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.473);
 
-    background-size: cover;
+    
     background-attachment: fixed;
 }
 
@@ -109,6 +109,7 @@ section#img01 {
 section#img02 { 
     background-image: url(../imagens/background002.jpg);
     background-size: cover;
+    background-position: center;
 }
 footer {
     background-color: black;
