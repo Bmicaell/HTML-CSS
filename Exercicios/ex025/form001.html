@@ -12,7 +12,9 @@
 </head>
 <body>
     <h1>Meu primeiro Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <!--get: QUANDO NAO TEM DADOS SENSIVEIS ex:nome, idade. obs: so pode enviar 3000 bytes- 3 mil letras. nao pode enviar imagens e arquivos-->
+        <!--post:  dados sensiveis, mais de 3 mil bytes. para dados de cartao utlizar HTTPS segurança-->
         <p><label for="inome">Nome:</label> <!-- action envio de informações-->
             <!-- label conectar campo de dados ao titulo, relação-->
             <input type="text" name="nome" id="inome"></p>
