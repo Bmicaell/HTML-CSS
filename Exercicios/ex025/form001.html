@@ -12,9 +12,14 @@
 </head>
 <body>
     <h1>Meu primeiro Formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> <!-- action envio de informações-->
+            <!-- label conectar campo de dados ao titulo, relação-->
+            <input type="text" name="nome" id="inome"></p>
+
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
