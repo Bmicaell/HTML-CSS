@@ -1,0 +1,69 @@
+EIXOS (AXIS)
+
+FLEX DIRECTION: ROW
+
+MAIN AXIS - DIREITA PARA ESQUERDA
+CROSS-AXIS - DE CIMA PARA BAIXO
+
+------------------------------------------------
+
+FLEX DIRECTION: ROW-REVERSE
+
+MAIN AXIS - ESQUERDA PARA DIREITA
+CROSS-AXIS - DE CIMA PARA BAIXO
+
+*************************************************
+
+FLEX DIRECTION: COLUMN
+
+MAIN AXIS - CIMA PARA BAIXO
+CROSS-AXIS - ESQUERDA PARA DIREITA
+
+------------------------------------------------
+
+FLEX DIRECTION: COLUMN-REVERSE
+
+MAIN AXIS - BAIXO PARA CIMA
+CROSS-AXIS - ESQUERDA PARA DIREITA
+
+
+*****************************************************
+JUSTIFY-CONTENT
+ALINHAMENTO EM RELAÇÃO AO MAIN-AXIS
+
+justify: flex-start
+item grudado no main-start espaço em branco no final
+
+justify-content: flex-end
+tem grudado no main-end espaço em branco no inicio
+
+justify-content: center
+alinha os itens ao centro deixo espaço em branco no main-start e no main-end iguais
+
+--------------------------------------------------------
+ALINHAMENTO DE ESPAÇAMENTO 
+
+justify-content: space-between
+cola primeiro item no main-start e o ultimo no main-end e deixa todos os items de dentro com o mesmo espaçamento
+
+justify-content: space-evenly 
+distribui os itens dentro do container com espaçamento iguais 
+
+justify-content: space-around 
+se o container tiver 3 itens ele dividira o container em 3 partes e centralizar o item dentro deste espaço
+
+ALIGN-ITEMS
+ALINHAMENTO EM RELAÇÃO AO CROSS-AXIS
+
+align-items: stretch (padrao) - esticar
+
+
+align-items: flex-start
+alinha em RELAÇÃO ao cross-start espaçamento em branco no cross-end
+
+align-items: flex-end
+alinha em RELAÇÃO ao cross-end espaçamento em branco no cross-start
+
+-------------------------
+align-tems: center
+pegar o cross-axis dividir na metade e deixar o espaço livre no inicio e no final
