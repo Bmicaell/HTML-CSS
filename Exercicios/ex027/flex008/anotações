@@ -1,0 +1,33 @@
+EIXOS (AXIS)
+
+FLEX DIRECTION: ROW
+
+MAIN AXIS - DIREITA PARA ESQUERDA
+CROSS-AXIS - DE CIMA PARA BAIXO
+
+------------------------------------------------
+
+FLEX DIRECTION: ROW-REVERSE
+
+MAIN AXIS - ESQUERDA PARA DIREITA
+CROSS-AXIS - DE CIMA PARA BAIXO
+
+*************************************************
+
+FLEX DIRECTION: COLUMN
+
+MAIN AXIS - CIMA PARA BAIXO
+CROSS-AXIS - ESQUERDA PARA DIREITA
+
+------------------------------------------------
+
+FLEX DIRECTION: COLUMN-REVERSE
+
+MAIN AXIS - BAIXO PARA CIMA
+CROSS-AXIS - ESQUERDA PARA DIREITA
+
+
+
+ALIGN-SELF
+
+Ele funciona com cross-axis o eixo transversal
