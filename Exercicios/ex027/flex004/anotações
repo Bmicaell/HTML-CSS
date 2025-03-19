@@ -52,6 +52,9 @@ distribui os itens dentro do container com espaçamento iguais
 justify-content: space-around 
 se o container tiver 3 itens ele dividira o container em 3 partes e centralizar o item dentro deste espaço
 
+
+****************************************************************************
+
 ALIGN-ITEMS
 ALINHAMENTO EM RELAÇÃO AO CROSS-AXIS
 
@@ -67,3 +70,27 @@ alinha em RELAÇÃO ao cross-end espaçamento em branco no cross-start
 -------------------------
 align-tems: center
 pegar o cross-axis dividir na metade e deixar o espaço livre no inicio e no final
+
+
+**********************************************************************************
+
+ALIGN-CONTENT
+Alinha os elementos no eixo transversal(cross-axis) quando os elementos estao empacotados
+
+align-items: alinha no eixo transversal(cross-axis)
+
+justify-content: alinha no eixo principal(main-axis)
+
+align-content: stretch(padrao) divide o espaço conforme a quantidade quebra de linha, por exemplo se for duas quebras o espaço sera dividido em 2, e vai esticar os elementos dentro de cada espaço
+
+align-content: flex-start, cola os elementos no cross-start deixando o espaço em branco abaixo no cross-end 
+
+align-content: flex-end cola os elementos no cross-end deixando o espaço em branco acima no cross-start
+
+align-content: center, criar espaço em branco no cross-start e cross-end e centrelizae os elementos ao centro 
+
+align-content:space-between cola os primeiros elementos no cross-start e e os ultimos elementos no cross-end deixando e divide o espaço no meio com os outros elementos caso venham existir
+
+align-content: space-evenly, distribui os elementos dentro do container com espaçamento igual
+
+align-content: space-around: divide o eixo transversal pela quantidade de linhas. ex: 2 linhas divide em duas partes, centraliza os elementos
