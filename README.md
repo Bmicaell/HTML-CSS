@@ -1,4 +1,4 @@
-- 📘 Repositório de Estudos: HTML & CSS
+  📘 Repositório de Estudos: HTML & CSS
 
   Este repositório foi criado para armazenar materiais, projetos e exercícios relacionados ao estudo de HTML e CSS. Aqui você encontrará desde conceitos básicos até técnicas avançadas para construir interfaces web modernas.
   ## 🚀 Tecnologias Abordadas
