@@ -11,3 +11,15 @@ header > h1 {
 header > nav > a {
     width: 90vw;
 }
+
+header > span#burguer {
+    display: block;
+    cursor: pointer;
+}
+
+header > nav {
+    display: none;
+    cursor: pointer;
+}
+
+
